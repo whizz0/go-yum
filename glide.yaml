@@ -1,4 +1,4 @@
-package: github.com/radepal/go-yum
+package: github.com/macizarc-pearson/go-yum
 import:
 - package: github.com/cavaliercoder/go-rpm
 - package: github.com/cavaliercoder/grab
