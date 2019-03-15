@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/cavaliercoder/go-rpm"
 	"github.com/cavaliercoder/grab"
-	"github.com/pivotal-golang/bytefmt"
+	"code.cloudfoundry.org/bytefmt"
 	"golang.org/x/crypto/openpgp"
 	"io/ioutil"
 	"os"

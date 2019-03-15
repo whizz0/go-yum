@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/cavaliercoder/grab"
-	"github.com/pivotal-golang/bytefmt"
+	"code.cloudfoundry.org/bytefmt"
 	"log"
 	"os"
 	"strings"

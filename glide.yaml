@@ -10,4 +10,4 @@ import:
 - package: golang.org/x/net
   subpackages:
   - context
-- package: github.com/pivotal-golang/bytefmt
+- package: code.cloudfoundry.org/bytefmt

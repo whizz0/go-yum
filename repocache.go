@@ -11,7 +11,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"xi2.org/x/xz"
+	"github.com/creachadair/xz"
 )
 
 type RepoCache struct {
