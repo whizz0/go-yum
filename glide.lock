@@ -7,7 +7,7 @@ imports:
   version: e403b038e10c3c6aaf022ab0f8502bd659604140
 - name: github.com/mattn/go-sqlite3
   version: ca5e3819723d8eeaf170ad510e7da1d6d2e94a08
-- name: github.com/pivotal-golang/bytefmt
+- name: code.cloudfoundry.org/bytefmt
   version: b12c1522f4cbb5f35861bd5dd2c39a4fa996441a
 - name: golang.org/x/crypto
   version: f6b343c37ca80bfa8ea539da67a0b621f84fab1d
