@@ -1,14 +1,60 @@
-hash: 9290630e2d80d95ec5c5de279fee604d52146dfa83e329c49ccf4d2ffe176803
-updated: 2017-01-02T22:12:00.140088777+01:00
+hash: 9019414366d6ff410c9ca1100925100f68dcbacf2d9d6ced0037b0f33b7d6cbc
+updated: 2019-10-29T13:57:19.339251383+01:00
 imports:
+- name: code.cloudfoundry.org/bytefmt
+  version: b12c1522f4cbb5f35861bd5dd2c39a4fa996441a
+- name: github.com/aws/aws-sdk-go
+  version: 39208f40a1ca0c02a3b7a950fcc78db3ea50cf25
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/processcreds
+  - aws/credentials/stscreds
+  - aws/csm
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/ini
+  - internal/s3err
+  - internal/sdkio
+  - internal/sdkmath
+  - internal/sdkrand
+  - internal/sdkuri
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/eventstream
+  - private/protocol/eventstream/eventstreamapi
+  - private/protocol/json/jsonutil
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/restxml
+  - private/protocol/xml/xmlutil
+  - service/s3
+  - service/s3/s3iface
+  - service/s3/s3manager
+  - service/sts
+  - service/sts/stsiface
 - name: github.com/cavaliercoder/go-rpm
   version: 067941e17bc40982becb50f059e946e9df9c7dbc
 - name: github.com/cavaliercoder/grab
   version: e403b038e10c3c6aaf022ab0f8502bd659604140
+- name: github.com/creachadair/xz
+  version: 48954b6210f8d154cb5f8484d3a3e1f83489309e
+- name: github.com/jmespath/go-jmespath
+  version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
 - name: github.com/mattn/go-sqlite3
   version: ca5e3819723d8eeaf170ad510e7da1d6d2e94a08
-- name: code.cloudfoundry.org/bytefmt
-  version: b12c1522f4cbb5f35861bd5dd2c39a4fa996441a
 - name: golang.org/x/crypto
   version: f6b343c37ca80bfa8ea539da67a0b621f84fab1d
   subpackages:
@@ -23,6 +69,4 @@ imports:
   version: 45e771701b814666a7eb299e6c7a57d0b1799e91
   subpackages:
   - context
-- name: github.com/creachadair/xz
-  version: 48954b6210f8d154cb5f8484d3a3e1f83489309e
 testImports: []
