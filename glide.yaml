@@ -1,4 +1,4 @@
-package: github.com/macizarc-pearson/go-yum
+package: github.com/whizz0/go-yum
 import:
 - package: code.cloudfoundry.org/bytefmt
 - package: github.com/aws/aws-sdk-go
